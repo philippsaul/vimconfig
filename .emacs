@@ -105,11 +105,6 @@
 ; disable tool- and menubar
 (tool-bar-mode -1)
 (menu-bar-mode -1)
-; load scad mode and scad preview
-(autoload 'scad-mode "scad-mode" "A major mode for editing OpenSCAD code." t)
-(add-to-list 'auto-mode-alist '("\\.scad$" . scad-mode))
-; preview...
-(require 'scad-preview)
 (use-package scad-preview)
 (use-package scad-mode
   :mode "\\.scad\\"
