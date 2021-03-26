@@ -1,0 +1,1 @@
+/home/benning/.emacs.d/straight/repos/vscode-dark-plus-emacs-theme/vscode-dark-plus-theme.el

@@ -107,7 +107,7 @@
 (menu-bar-mode -1)
 (use-package scad-preview)
 (use-package scad-mode
-  :mode "\\.scad\\"
+  :mode "\\.scad\\'"
   :after scad-preview
   :hook(scad-mode .
 scad-preview-mode))
