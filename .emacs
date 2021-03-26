@@ -110,3 +110,9 @@
 (add-to-list 'auto-mode-alist '("\\.scad$" . scad-mode))
 ; preview...
 (require 'scad-preview)
+(use-package scad-preview)
+(use-package scad-mode
+  :mode "\\.scad\\"
+  :after scad-preview
+  :hook(scad-mode .
+scad-preview-mode))
