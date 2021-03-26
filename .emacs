@@ -4,11 +4,11 @@
 ;;               '("melpa" . "https://melpa.org/packages/"))
 ;;  (package-initialize)
 ;;  (package-refresh-contents)
-;;  
+;;
 ;;  ;; Download Evil
 ;;  (unless (package-installed-p 'evil)
 ;;    (package-install 'evil))
-;;  
+;;
 ;;  ;; Enable Evil
 ;;  (require 'evil)
 ;;  (evil-mode 1)
@@ -36,13 +36,13 @@
 ;;           (goto-char (point-max))
 ;;           (eval-print-last-sexp)))
 ;;  (load bootstrap-file nil 'nomessage))
-;;  
+;;
 ;;  (straight-use-package 'use-package)
 ;;  (setq straight-use-package-by-default t)
 ;;  (use-package vscode-dark-plus-theme
 ;;    :config
 ;;    (load-theme 'vscode-dark-plus t))
-;;  
+;;
 (defvar bootstrap-version)
 (let ((bootstrap-file
       (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
@@ -96,3 +96,9 @@
 (use-package vscode-dark-plus-theme
   :defer t)
 (load-theme 'vscode-dark-plus t)
+
+;; VIM Trainer
+(straight-use-package
+  '(evil-motion-trainer :type git :host github :repo "martinbaillie/evil-motion-trainer")
+  :config
+  (setq global-evil-motion-trainer-mode 1))
