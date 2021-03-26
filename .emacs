@@ -102,3 +102,11 @@
   '(evil-motion-trainer :type git :host github :repo "martinbaillie/evil-motion-trainer")
   :config
   (setq global-evil-motion-trainer-mode 1))
+; disable tool- and menubar
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+; load scad mode and scad preview
+(autoload 'scad-mode "scad-mode" "A major mode for editing OpenSCAD code." t)
+(add-to-list 'auto-mode-alist '("\\.scad$" . scad-mode))
+; preview...
+(require 'scad-preview)
