@@ -1,0 +1,99 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "editor.renderControlCharacters": true,
+    "http.proxy": "http://proxy.boh.benning.de:8080",
+    "https.proxy": "https://proxy.boh.benning.de:8080",
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.general.tags": [
+        "test tag",
+        "XXX",
+        "TODO",
+        "HACK",
+        "FIXME",
+        "BUG",
+        "test"
+    ],
+    "git.enableSmartCommit": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "keyboard.dispatch": "keyCode",
+    "cSpell.language": ",de",
+    "vim.useCtrlKeys": false,
+    "http.proxyAuthorization": null,
+    "latex-workshop.message.update.show": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "vim.normalModeKeyBindings": [
+    
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        } 
+    ],
+    "window.zoomLevel": 0,
+    "cSpell.userWords": [
+        "actual",
+        "axis",
+        "cards",
+        "config",
+        "dcmcu",
+        "diagramm",
+        "dots",
+        "false",
+        "fehlerfall",
+        "nominal",
+        "nominale",
+        "prio",
+        "rectifier",
+        "screenshots",
+        "second",
+        "site",
+        "spannung",
+        "ticks",
+        "user",
+        "visible",
+        "voltage",
+        "x"
+    ],
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1626673689783,
+    "explorer.confirmDelete": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "vim.commandLineModeKeyBindings": [
+    
+    
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
+}
